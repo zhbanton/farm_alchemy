@@ -17,3 +17,16 @@
     type: EssenceRichtext
     default: :article_text
     hint: true
+
+- name: farm_info
+  unique: true
+  contents:
+  - name: farm_name
+    type: EssenceText
+    hint: true
+  - name: description
+    type: EssenceRichtext
+    hint: true
+  - name: picture
+    type: EssencePicture
+    hint: true
