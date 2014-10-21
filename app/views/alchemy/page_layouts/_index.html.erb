@@ -1,5 +1,8 @@
 <%= render_elements %>
 
 <% Alchemy::Element.all.where(name: "farm_info").each do |farm| %>
-  <%= farm.content_by_name("farm_name").ingredient %>
+  <%= link_to farm.content_by_name("farm_name").ingredient, full_url_for_element(farm) %>
+  <br>
 <% end %>
+
+
