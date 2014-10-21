@@ -1,1 +1,5 @@
 <%= render_elements %>
+
+<% Alchemy::Element.all.where(name: "farm_info").each do |farm| %>
+  <%= farm.content_by_name("farm_name").ingredient %>
+<% end %>

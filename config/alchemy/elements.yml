@@ -10,13 +10,6 @@
     type: EssenceText
     default: :article_headline
     hint: true
-  - name: picture
-    type: EssencePicture
-    hint: true
-  - name: text
-    type: EssenceRichtext
-    default: :article_text
-    hint: true
 
 - name: farm_info
   unique: true
