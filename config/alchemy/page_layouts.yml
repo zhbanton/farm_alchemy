@@ -8,6 +8,6 @@
   autogenerate: [article]
 
 - name: farm
-  elements: [farm_info, product]
+  elements: [farm_info, product, ad_space]
   autogenerate: [farm_info]
   cache: false

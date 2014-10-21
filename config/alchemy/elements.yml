@@ -39,3 +39,9 @@
     type: EssenceBoolean
     hint: true
 
+- name: ad_space
+  contents:
+  - name: ad
+    type: EssencePicture
+    hint: true
+

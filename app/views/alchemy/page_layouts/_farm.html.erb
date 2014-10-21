@@ -1,4 +1,13 @@
-<%= render_elements %>
+<div class="row">
+  <div class="col-md-8">
+    <%= render_elements only: 'farm_info' %>
+    <%= render_elements only: 'product' %>
+  </div>
+  <div class="col-md-4">
+    <h3>This is an Ad</h3>
+    <%= render_elements only: 'ad_space' %>
+  </div>
+</div>
 
 <%= link_to "back", root_path %>
 

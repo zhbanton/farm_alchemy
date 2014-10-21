@@ -5,8 +5,6 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.4'
 # Use postgresql as the database for Active Record
 gem 'pg'
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -42,4 +40,7 @@ gem 'alchemy_cms', '~> 3.0.0'
 gem 'alchemy-devise', github: 'magiclabs/alchemy-devise', branch: '2.0-stable'
 
 gem 'pry'
+
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'sass-rails', '>= 3.2'
 
