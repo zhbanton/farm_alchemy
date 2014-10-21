@@ -38,3 +38,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'alchemy_cms', '~> 3.0.0'
+gem 'alchemy-devise', github: 'magiclabs/alchemy-devise', branch: '2.0-stable'
+
