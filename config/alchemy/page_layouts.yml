@@ -6,6 +6,7 @@
   unique: true
   elements: [article]
   autogenerate: [article]
+  cache: false
 
 - name: farm
   elements: [farm_info, product, ad_space]

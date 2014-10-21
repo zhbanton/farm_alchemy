@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "",
+  "sourceRoot": "",
+  "sources": [
+    "/assets/source_maps/bundler/gems/alchemy_cms-3.0.2/app/assets/javascripts/alchemy/menubar.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;AAAA,EAAA,IAAuB,MAAA,CAAA,MAAa,CAAC,OAAd,KAA0B,WAAjD;AAAA,IAAA,MAAM,CAAC,OAAP,GAAiB,EAAjB,CAAA;GAAA;;AAAA,EAEA,OAAO,CAAC,WAAR,GAAsB,SAAA,GAAA;AACpB,QAAA,OAAA;AAAA,IAAA,OAAA,GAAU,QAAQ,CAAC,cAAT,CAAwB,iBAAxB,CAAV,CAAA;AACA,IAAA,IAAI,MAAA,CAAA,OAAA,KAAmB,WAAnB,IAAkC,OAAA,KAAW,IAAjD;aACE,OAAO,CAAC,KAAK,CAAC,OAAd,GAAwB,QAD1B;KAFoB;EAAA,CAFtB,CAAA;;AAAA,EAOA,OAAO,CAAC,WAAR,CAAA,CAPA,CAAA;AAAA"
+}

@@ -40,6 +40,7 @@ gem 'alchemy_cms', '~> 3.0.0'
 gem 'alchemy-devise', github: 'magiclabs/alchemy-devise', branch: '2.0-stable'
 
 gem 'pry'
+gem 'coffee-rails-source-maps'
 
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'sass-rails', '>= 3.2'
