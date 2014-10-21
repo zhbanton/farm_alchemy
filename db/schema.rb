@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141021170946) do
+ActiveRecord::Schema.define(version: 20141021204321) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -171,6 +171,14 @@ ActiveRecord::Schema.define(version: 20141021170946) do
     t.integer  "updater_id"
     t.datetime "created_at",                      null: false
     t.datetime "updated_at",                      null: false
+  end
+
+  create_table "alchemy_essence_zacks", force: true do |t|
+    t.integer  "creator_id"
+    t.integer  "updater_id"
+    t.string   "body"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "alchemy_folded_pages", force: true do |t|

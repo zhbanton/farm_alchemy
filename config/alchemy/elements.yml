@@ -27,7 +27,7 @@
 - name: product
   contents:
   - name: product_name
-    type: EssenceText
+    type: EssenceZack
     hint: true
   - name: variety
     type: EssenceText
