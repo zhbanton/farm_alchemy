@@ -23,3 +23,19 @@
   - name: picture
     type: EssencePicture
     hint: true
+
+- name: product
+  contents:
+  - name: product_name
+    type: EssenceText
+    hint: true
+  - name: variety
+    type: EssenceText
+    hint: true
+  - name: picture
+    type: EssencePicture
+    hint: true
+  - name: organic
+    type: EssenceBoolean
+    hint: true
+

@@ -1,0 +1,16 @@
+<%- cache(element) do -%>
+  <%= element_view_for(element) do |el| -%>
+    <div class="product_name">
+      <%= el.render :product_name %>
+    </div>
+    <div class="variety">
+      <%= el.render :variety %>
+    </div>
+    <div class="picture">
+      <%= el.render :picture %>
+    </div>
+    <div class="organic">
+      <%= el.render :organic %>
+    </div>
+  <%- end -%>
+<%- end -%>
