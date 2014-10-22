@@ -7,10 +7,14 @@
       <%= el.render :variety %>
     </div>
     <div class="picture">
-      <%= el.render :picture %>
+      <%= el.render :picture, image_size: "100x100", crop: true %>
     </div>
     <div class="organic">
-      <%= el.render :organic %>
+      <% if element.contents.where(name: "organic").first.essence.value == true %>
+        <p>organic</p>
+      <% else %>
+        <p>not organic</p>
+      <% end %>
     </div>
   <%- end -%>
 <%- end -%>

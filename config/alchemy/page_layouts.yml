@@ -9,11 +9,13 @@
   cache: false
 
 - name: farm
+  cells: [left_column]
   elements: [business_info, product, ad_space]
   autogenerate: [business_info]
   cache: false
 
 - name: restaurant
+  cells: [left_column]
   elements: [business_info, ad_space]
   autogenerate: [business_info]
   cache: false

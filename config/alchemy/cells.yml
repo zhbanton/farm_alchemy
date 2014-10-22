@@ -1,0 +1,2 @@
+- name: left_column
+  elements: [text, ad_space]
