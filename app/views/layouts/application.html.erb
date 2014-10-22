@@ -7,6 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <%= render 'alchemy/elements/navbar_info_view', element: Alchemy::Element.where(name: "navbar_info").first %>
   <%= yield %>
   <%= alchemy_preview_mode_code %>
   <%= render "alchemy/menubar" %>

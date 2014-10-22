@@ -1,8 +1,13 @@
 <%= render_elements %>
 
-<% Alchemy::Element.all.where(name: "farm_info").each do |farm| %>
-  <%= link_to farm.content_by_name("farm_name").ingredient, full_url_for_element(farm) %>
+<h3>Farms</h3>
+<% Alchemy::Element.where(name: "business_info").find_all { |e| e.page.public == true && e.page.page_layout == 'farm' }.each do |farm| %>
+  <%= link_to farm.content_by_name("business_name").ingredient, full_url_for_element(farm) %>
   <br>
 <% end %>
 
-
+<h3>Restaurants</h3>
+<% Alchemy::Element.where(name: "business_info").find_all { |e| e.page.public == true && e.page.page_layout == 'restaurant' }.each do |restaurant| %>
+  <%= link_to restaurant.content_by_name("business_name").ingredient, full_url_for_element(restaurant) %>
+  <br>
+<% end %>

@@ -9,6 +9,17 @@
   cache: false
 
 - name: farm
-  elements: [farm_info, product, ad_space]
-  autogenerate: [farm_info]
+  elements: [business_info, product, ad_space]
+  autogenerate: [business_info]
+  cache: false
+
+- name: restaurant
+  elements: [business_info, ad_space]
+  autogenerate: [business_info]
+  cache: false
+
+- name: navbar
+  unique: true
+  elements: [navbar_info]
+  autogenerate: [navbar_info]
   cache: false

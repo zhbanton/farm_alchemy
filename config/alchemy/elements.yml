@@ -11,12 +11,13 @@
     default: :article_headline
     hint: true
 
-- name: farm_info
+- name: business_info
   unique: true
   contents:
-  - name: farm_name
+  - name: business_name
     type: EssenceText
     hint: true
+    validate: [presence, uniqueness]
   - name: description
     type: EssenceRichtext
     hint: true
@@ -44,4 +45,17 @@
   - name: ad
     type: EssencePicture
     hint: true
+
+- name: navbar_info
+  unique: true
+  contents:
+  - name: site_title
+    type: EssenceText
+    hint: true
+    default: "FarmToTable"
+  - name: link
+    type: EssenceText
+    default: This link is displayed in the dropdown menu
+    settings:
+      linkable: true
 
